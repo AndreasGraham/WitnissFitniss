@@ -4,8 +4,7 @@
 
 
 class Exercise {
-	Exercise(std::string& a, std::string& b, std::string& c);
-	Exercise();
+	
 
 
 private:
@@ -14,9 +13,11 @@ private:
 	std::string typeCode;
 	//image
 public:
-	void exerciseLoop(int a[]); // takes an array of times
+	Exercise(std::string& a, std::string& b, std::string& c, int image);
+	Exercise();
+	void exerciseLoop(int exerciseInput, int intervalTime, Exercise UP[], Exercise SUP[], Exercise SLB[], Exercise LB[], Exercise SCO[], Exercise CO[]); // takes an array of times
 	void DisplayStretch(Exercise a);
-	void DesplayExercise(Exercise a);
+	void DisplayExercise(Exercise a);
 
 
 };
