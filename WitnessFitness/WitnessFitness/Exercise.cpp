@@ -5,10 +5,10 @@
 
 using namespace std;
 
-Exercise::Exercise(std::string& a, std::string& b, std::string& c, int d[3]) {
-	Name = a;
+Exercise::Exercise(std::string& a, /*std::string& b, std::string& c,*/ int d[3]) {
+	/*Name = a;
 	Category = b;
-	typeCode = c;
+	typeCode = c;*/
 	img[0] = d[0];
 	img[1] = d[1];
 	img[2] = d[2];
